@@ -10,7 +10,23 @@
 
 <body>
     <div id="navDiv"></div>
+    <div>
+    <!-- Fields for title, author, and category.
+     fiction, comedy, and technical. -->
+        <form action="" id="addBookForm">
+            <input type="text" name="" id="bookTitle" placeholder="Name of the Book">
+            <input type="text" name="" id="bookAuthor" placeholder="Name of the Author">
+            <select name="category" id="category">
+                <option value="#">Select Category</option> 
+                <option value="fiction">Fiction</option>
+                <option value="comedy">Comedy</option>
+                <option value="technical">Technical</option>
+            </select>
+            <input type="submit">
+        </form>
+    </div>
+
 </body>
 <script src="./scripts/navbar.js"></script>
-
+<script src="./scripts/admin.js"></script>
 </html>
